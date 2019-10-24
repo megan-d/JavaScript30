@@ -10,7 +10,6 @@
   <p><em>Psst: have a look at the JavaScript Console</em> 💁</p>
   <script>
     // ## Array Cardio Day 2
-
     const people = [
       { name: 'Wes', year: 1988 },
       { name: 'Kait', year: 1986 },
@@ -36,8 +35,8 @@
     console.log({ isAdult });
     // Array.prototype.every() // is everyone 19 or older?
     const allAdults = people.every(person => {
-    ((new Date()).
-      getFullYear()) - person.year >= 19;
+      ((new Date()).
+        getFullYear()) - person.year >= 19;
     })
     console.log({ allAdults });
 
